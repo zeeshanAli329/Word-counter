@@ -4,6 +4,8 @@ body {
   padding: 20px;
   max-width: 650px;
   margin: auto;
+  align-items: center;
+  justify-content: center;
   /* background-color: black; */
 }
 
@@ -47,10 +49,12 @@ textarea {
   margin-top: 30px;
   align-items: center;
   justify-content: center;
+  margin-left: 250px;
   background-color: rgb(165, 232, 236);
   border: 10px solid  rgb(0, 238, 255);
   border-radius: 5px;
   width: 700px;
+  box-shadow: 4px 6px 12px 12px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   /* box-shadow: 1px black 2px darkblue; */
 }
 .heading{

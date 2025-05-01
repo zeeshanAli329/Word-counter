@@ -3,6 +3,7 @@ import "./App.css";
 import countWord from "./countword";
 
 
+
 // function countWord() {
 //   const text = document.getElementById("text").value.trim();
 
