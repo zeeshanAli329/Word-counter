@@ -6,7 +6,9 @@ body {
   margin: auto;
   align-items: center;
   justify-content: center;
-  /* background-color: black; */
+  /* background-color: rgb(162, 180, 135); */
+  background-color: #f0f4f8;
+  /* background-color: #000102; */
 }
 
 textarea {
@@ -17,24 +19,20 @@ textarea {
   height: 350px;
   font-size: 16px;
   padding: 10px;
-  border: none;
-  border: 10px solid rgb(225, 213, 213);
-  /* resize: none; */
   resize: vertical;
 }
+textarea:focus{
+   outline: none;
+}
 .output-container{
-  /* background-color: blue; */
   padding-bottom: 20px;
-  /* margin-bottom: 50px; */
   justify-content: center;
-  /* align-items: center; */
-  /* display: flex; */
   position: relative;
   left: 85px;
 }
 
 .output {
- 
+
   margin-top: 20px;
   font-size: 18px;
   background: #fff;
@@ -50,8 +48,10 @@ textarea {
   align-items: center;
   justify-content: center;
   margin-left: 250px;
-  background-color: rgb(165, 232, 236);
-  border: 10px solid  rgb(0, 238, 255);
+  background-color: #ffffff;
+  /* background-color: rgb(0, 7, 7); */
+
+  /* border: 10px solid  rgb(0, 238, 255); */
   border-radius: 5px;
   width: 700px;
   box-shadow: 4px 6px 12px 12px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
